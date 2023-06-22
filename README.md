@@ -1,4 +1,10 @@
-# Three.js BoilerPlate
+# Vertex Triangle appear / disapear
+
+![Cover](https://github.com/Klipfel-Nicolas/Jacque-C/blob/main/public/gif/tornado.gif) | ![Cover](https://github.com/Klipfel-Nicolas/Jacque-C/blob/main/public/gif/bottom.gif)
+
+![Cover](https://github.com/Klipfel-Nicolas/Jacque-C/blob/main/public/gif/reduce.gif) | ![Cover](https://github.com/Klipfel-Nicolas/Jacque-C/blob/main/public/gif/scale.gif)
+
+![Cover](https://github.com/Klipfel-Nicolas/Jacque-C/blob/main/public/gif/wind.gif)
 
 ## Setup
 Run this followed commands:
