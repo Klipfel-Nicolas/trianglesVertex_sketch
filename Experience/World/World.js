@@ -39,7 +39,7 @@ export default class World extends EventEmitter {
             this.objects.sphere.object.position.set(5, 2, 0)
             
             // Cube
-            this.addTrianglesObject(new THREE.BoxGeometry( 1.5, 1.5, 1.5, 10, 10, 10 ), 'cube', 'wind', 0x008E80);
+            this.addTrianglesObject(new THREE.BoxGeometry( 1.5, 1.5, 1.5, 10, 10, 10 ), 'cube', 'reduce', 0x008E80);
 
             this.objects.cube.object.position.set(-5, 2, 0);
             this.objects.cube.object.rotation.set(1, 1, 1);

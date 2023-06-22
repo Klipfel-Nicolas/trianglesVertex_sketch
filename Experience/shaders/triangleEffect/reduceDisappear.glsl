@@ -1,0 +1,1 @@
+transformed = (transformed - aCenter)*(1.-progress) + aCenter;

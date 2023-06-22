@@ -10,6 +10,7 @@ import rotationAppear from '../shaders/triangleEffect/rotationAppearVertex.glsl'
 import tornadoDisappear from '../shaders/triangleEffect/tornadoDisappearVertex.glsl'
 import windDisappear from '../shaders/triangleEffect/windDisappearVertex.glsl'
 import xDisappear from '../shaders/triangleEffect/xDisappearVertex.glsl'
+import reduceDisappear from '../shaders/triangleEffect/reduceDisappear.glsl'
 
 
 export default class TrianglesEffect {
@@ -24,7 +25,8 @@ export default class TrianglesEffect {
           rotation: rotationAppear,
           tornado: tornadoDisappear,
           wind: windDisappear,
-          xRotation: xDisappear
+          xRotation: xDisappear,
+          reduce: reduceDisappear,
         }
 
         this.vertexEffect = this.effectsVertexList[effectName]
